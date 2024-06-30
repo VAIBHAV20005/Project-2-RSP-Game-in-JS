@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding:0;
+}
+#head{
+    background-color: RGB(12, 1, 43);
+    color:rgb(231, 231, 0);
+    text-align: center;
+    line-height: 3rem;
+}
+img{
+    height:150px;
+    width:150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 50px;
+     
+}
+#choices{
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    
+}
+img:hover{
+    border:3px solid black;
+    opacity: 0.7;
+    cursor: pointer;
+}
+#score-board{
+    margin-left: 500px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap:60px;
+}
+#user-score{
+    background-color:RGB(12, 1, 43);
+    color:white ;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#comp-score{
+    background-color:RGB(12, 1, 43);
+    color:white ;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#us{
+ margin-left: 36px;
+}
+#cs{
+    margin-left: 36px;
+}
+#winmsg{
+    text-align: center;
+    margin-top: 150px;
+}
+#winnershow{
+    font-size: 1.5rem;
+    background-color:RGB(12, 1, 43);
+    color:white;
+    padding: 10px;  
+    border-radius: 10px;   
+    display: inline;
+}
+
